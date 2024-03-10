@@ -23,6 +23,8 @@
 - [🎬 Getting Started ](#-getting-started-)
   - [Prerequisites](#prerequisites)
   - [Installing](#installing)
+- [🔦 Instructions for installing the boilerplate.](#-instructions-for-installing-the-boilerplate)
+- [👨🏽‍🚀 Once you have all the prerequisites and the repository cloned or installed by boilerplate](#-once-you-have-all-the-prerequisites-and-the-repository-cloned-or-installed-by-boilerplate)
 - [Husky ](#husky-)
   - [Commit-msg](#commit-msg)
   - [Pre-Commit](#pre-commit)
@@ -51,12 +53,22 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-You need to have [Node.js](https://nodejs.org/en/) at least version 16 installed on your machine.
-The package manager used in this project is [NPM](https://www.npmjs.com/) at version 7.x.x.
+You need to have [Node.js](https://nodejs.org/en/) at least version 18 installed on your machine.
+The package manager used in this project is [NPM](https://www.npmjs.com/) at version 10.x.x.
 
 ### Installing
 
-Once you have all the prerequisites and the repository cloned, you can install the dependencies by running:
+## 🔦 Instructions for installing the boilerplate.
+
+```
+npx create-next-app@latest -e https://github.com/mesainc/frontend-boilerplate-nextjs
+```
+
+or
+
+## 👨🏽‍🚀 Once you have all the prerequisites and the repository cloned or installed by boilerplate
+
+you can install the dependencies by running
 
 ```
 npm install
@@ -68,7 +80,7 @@ The valid environment variables can be found at the project Slite. If you don't 
 
 ## Husky <a name = "husky"></a>
 
-This project uses Husky to ensure commit integrity and code consistency. Below are the steps performed during different phases of the development workflow:
+This project uses Husky to ensure commit integrity and code consistency.
 
 ### Commit-msg
 
@@ -151,6 +163,6 @@ In case of conflicts, the developer who opened the pull request is responsible f
 
 ## 🚀 Deployment <a name = "deployment"></a>
 
-empty
+-
 
 <small>README - v1.0</small>
