@@ -22,9 +22,9 @@
 - [📜 About ](#-about-)
 - [🎬 Getting Started ](#-getting-started-)
   - [Prerequisites](#prerequisites)
-  - [Installing](#installing)
-- [🔦 Instructions for installing the boilerplate.](#-instructions-for-installing-the-boilerplate)
-- [👨🏽‍🚀 Once you have all the prerequisites and the repository cloned or installed by boilerplate](#-once-you-have-all-the-prerequisites-and-the-repository-cloned-or-installed-by-boilerplate)
+- [Installing](#installing)
+  - [🔦 Instructions for installing the boilerplate.](#-instructions-for-installing-the-boilerplate)
+  - [👨🏽‍🚀 Once you have all the prerequisites and the repository cloned or installed by boilerplate](#-once-you-have-all-the-prerequisites-and-the-repository-cloned-or-installed-by-boilerplate)
 - [Husky ](#husky-)
   - [Commit-msg](#commit-msg)
   - [Pre-Commit](#pre-commit)
@@ -56,9 +56,9 @@ These instructions will get you a copy of the project up and running on your loc
 You need to have [Node.js](https://nodejs.org/en/) at least version 18 installed on your machine.
 The package manager used in this project is [NPM](https://www.npmjs.com/) at version 10.x.x.
 
-### Installing
+## Installing
 
-## 🔦 Instructions for installing the boilerplate.
+### 🔦 Instructions for installing the boilerplate.
 
 ```
 npx create-next-app@latest -e https://github.com/mesainc/frontend-boilerplate-nextjs
@@ -66,7 +66,7 @@ npx create-next-app@latest -e https://github.com/mesainc/frontend-boilerplate-ne
 
 or
 
-## 👨🏽‍🚀 Once you have all the prerequisites and the repository cloned or installed by boilerplate
+### 👨🏽‍🚀 Once you have all the prerequisites and the repository cloned or installed by boilerplate
 
 you can install the dependencies by running
 
