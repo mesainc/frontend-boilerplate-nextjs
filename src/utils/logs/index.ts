@@ -1,0 +1,1 @@
+export { getCustomLog } from './logs'
