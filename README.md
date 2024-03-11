@@ -1,6 +1,6 @@
 <p align="center">
   <a href="" rel="noopener">
- <img width=240px height=100px src=".docs/assets/logo_mesa.svg" alt="logo"></a>
+ <img width=240px height=100px src=".docs/assets/logo_mesa.svg" alt="logo_mesa"></a>
 </p>
 
 <h3 align="center">Frontend Boilerplate</h3>
@@ -39,12 +39,13 @@
 
 - The Portal frontend application is built using [Next.js](https://nextjs.org/) app router with [TypeScript](https://www.typescriptlang.org/).
 - The application is styled using [Tailwind](https://tailwindcss.com/).
-- The application is linted using [ESLint](https://eslint.org/), and [Prettier](https://prettier.io/) .
+- The code uses [ESLint](https://eslint.org/) for lint.
+- To create a formatting pattern we use [Prettier](https://prettier.io/),
 - For state management, the applications uses the [Zustand](https://zustand-demo.pmnd.rs/) state management which should be more suitable for complex global state management.
 - Tests are written using [Vitest](https://vitest.dev/) and [React Testing Library](https://testing-library.com/docs/react-testing-library/intro/).
 - We automate some features git using [Husky](https://typicode.github.io/husky/#/)
 - For work with validations in the best way, we use [Zod](https://zod.dev/), [Zod](https://zod.dev/) is a TypeScript-first schema declaration and validation library. I'm using the term "schema" to broadly refer to any data type, from a simple string to a complex nested object.
-- For forms using [React-hook-forms](https://react-hook-form.com/) is a lightweight and efficient library for managing forms in React applications. It allows for the creation of flexible and high-performing forms using React hooks to simplify state management and field validation.
+- For forms using [React-hook-forms](https://react-hook-form.com/) is a lightweight and efficient library for managing forms in React applications. It allows for the creation of flexible and high-performing forms using React hooks to simplify state management and field validation. [React-hook-forms](https://react-hook-form.com/)has a great synergy with [Zod](https://zod.dev/), it greatly simplifies the development of form validations.
 - For general icons we use [iconify](https://iconify.design/)
 
 ## 🎬 Getting Started <a name = "getting_started"></a>
@@ -63,8 +64,6 @@ The package manager used in this project is [NPM](https://www.npmjs.com/) at ver
 ```
 npx create-next-app@latest -e https://github.com/mesainc/frontend-boilerplate-nextjs
 ```
-
-or
 
 ### 👨🏽‍🚀 Once you have all the prerequisites and the repository cloned or installed by boilerplate
 
